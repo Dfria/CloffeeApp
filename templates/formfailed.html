@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Cloffee Site</title>
+    <title>Cloffee Bot</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&display=swap" rel="stylesheet">
     <link rel="icon" href="images/profile.jpeg" type="image/x-icon">
@@ -17,8 +17,11 @@
     <h1>Login</h1>
 <div class="login"></div>
     <form action="/login" method = "POST">
-    <p>Username   <input type="text" username="username"></p>
-    <p>Password   <input type="password" password="password"></p>
+    <p>Username   <input type="text" name="username"></p>
+    <p>Password   <input type="text" age="password"></p>
+        <div id="loginfail">
+            Login failed.
+        </div>
     <p><input type="submit" value="Submit"></p>
         <div id="createaccount">
     <a href="http://127.0.0.1:5000/newaccount">Create Account</a>
